@@ -11,6 +11,26 @@
   }
 }
 
+#one img {
+  @include orientation(landscape) {
+    @include breakpoint("<=small") {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
+
+#one img {
+  @include orientation(landscape) {
+    @include breakpoint("<=medium") {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
+
 #wrapper {
   //   color: _palette(fg-bold);
 
