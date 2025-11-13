@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <title>Denver Electrolysis Studio</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+      content="width=device-width, initial-scale=1, user-scalable=yes"
     />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/assets/css/main.css" />
     <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
+      ><link rel="stylesheet" href="/assets/css/noscript.css"
     /></noscript>
   </head>
+
   <body class="is-preload">
     <!-- Header -->
     <header id="header">
@@ -20,8 +22,6 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <!-- <li><a href="generic.html" class="active">Generic</a></li>
-          <li><a href="elements.html">Elements</a></li> -->
         </ul>
       </nav>
     </header>
@@ -32,31 +32,27 @@
       <section id="main" class="wrapper">
         <div class="inner">
           <h1 class="major">Your form has been submitted</h1>
-          
-
-   
 
           <section>
             <ul class="contact">
               <li>
                 <h3>Address</h3>
-                <span
-                  >Located in Urban Luxury Salons 403 16th St Mall 3rd Floor.
-                </span>
-                <br />
-                <br />
-                <span
-                  >Validated Parking in the Denver Pavilions Parking Garage.
+                <span>Located in Salon Lofts 403 16th St Mall 3rd Floor</span
+                ><br /><br />
+                <span>
+                  Validated Parking in the Denver Pavilions Parking Garage.
                   Access from Welton St between 15th and 16th Streets.
                 </span>
               </li>
               <li>
                 <h3>Email</h3>
-                <a href="#">electrolysisdenver@gmail.com</a>
+                <a href="mailto:electrolysisdenver@gmail.com"
+                  >electrolysisdenver@gmail.com</a
+                >
               </li>
               <li>
                 <h3>Phone</h3>
-                <span> 720.586.HAIR (4247)</span>
+                <a href="tel:+17205864247">720.586.HAIR (4247)</a>
               </li>
               <li>
                 <h3>Social</h3>
@@ -71,11 +67,6 @@
                       ><span class="label">Facebook</span></a
                     >
                   </li>
-                  <!-- <li>
-                    <a href="#" class="icon brands fa-github"
-                      ><span class="label">GitHub</span></a
-                    >
-                  </li> -->
                   <li>
                     <a href="#" class="icon brands fa-instagram"
                       ><span class="label">Instagram</span></a
@@ -91,28 +82,28 @@
             </ul>
           </section>
         </div>
-      </div>
-    </section>
-  </div>
-
-  <!-- Footer -->
-  <footer id="footer" class="wrapper style1-alt">
-    <div class="inner">
-      <ul class="menu">
-        <li>&copy; 2023 Denver Electrolysis Studio. All rights reserved.</li>
-      </ul>
+      </section>
     </div>
-  </footer>
 
-  <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrollex.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1-alt">
+      <div class="inner">
+        <ul class="menu">
+          <li>
+            &copy; <span class="current-year"></span> Denver Electrolysis
+            Studio. All rights reserved.
+          </li>
+        </ul>
+      </div>
+    </footer>
 
- 
+    <!-- JS (maintain order — defer only main.js) -->
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/jquery.scrollex.min.js"></script>
+    <script src="/assets/js/jquery.scrolly.min.js"></script>
+    <script src="/assets/js/browser.min.js"></script>
+    <script src="/assets/js/breakpoints.min.js"></script>
+    <script src="/assets/js/util.js"></script>
+    <script src="/assets/js/main.js" defer></script>
   </body>
 </html>

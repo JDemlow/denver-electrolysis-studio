@@ -20,6 +20,9 @@
     window.setTimeout(function () {
       $body.removeClass("is-preload");
     }, 100);
+
+    // Footer year auto-update (works on any page with .current-year)
+    $(".current-year").text(new Date().getFullYear());
   });
 
   // Forms.
